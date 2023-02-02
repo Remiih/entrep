@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Philippines Local Goods Export</title>
+	<script>
+  function showAboutPopup() {
+    alert("We are a team dedicated to promoting and exporting local goods from the Philippines to the world. Our mission is to showcase the beauty and diversity of Philippine culture through its products.");
+  }
+
+  function showContactPopup() {
+    alert("Have any questions or inquiries? Contact us at:\nEmail: info@philippinegoodsexporters.com\nPhone: +63 (0) 123 456 789");
+  }
+</script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #E3E6E6;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      header {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+      
+      header h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+      
+      header nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      header nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 24px;
+      }
+      
+      main {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        min-height: calc(100% - 200px);
+        overflow: auto;
+      }
+      
+      section {
+        width: 31%;
+        text-align: center;
+      }
+      
+      section h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      
+      section ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+		list-style-type: none;
+      }
+      
+      section li {
+        width: 48%;
+        margin: 10px;
+      }
+      
+      section a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+      }
+      
+      section img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+		border: 25px solid #fff;
+      }
+      
+      section p {
+        font-size: 18px;
+        margin: 10px 0;
+		padding-left: 50px;
+      }
+      
+      footer {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+      footer p {
+        margin: 0;
+        font-size: 18px;
+      }
+	  html,
+	body {
+	  height: 100%;
+	  margin: 0;
+	  padding: 0;
+	}
+
+	.wrapper {
+	  min-height: 100%;
+	  display: flex;
+	  flex-direction: column;
+	}
+
+	main {
+	  flex: 1;
+	}
+
+	footer {
+	  background-color: #333;
+	  color: #fff;
+	  padding: 1rem;
+	  text-align: center;
+	}
+    </style>
+  </head>
+ <body class="wrapper">
+  <header>
+    <h1>Philippines Local Goods Export</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#"  onclick="showAboutPopup()">About</a></li>
+        <li><a href="#" onclick="showContactPopup()">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Featured Products</h2>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="https://barongtagalog.us/wp-content/uploads/2021/03/Jusilyn-Boys-Barong-Tagalog-8105-150x150.jpg" alt="Product 1">
+            <p>Barong</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="https://i.pinimg.com/736x/2f/c5/87/2fc587009427c3443fbaf7cac20a546b--murals.jpg" alt="Product 2">
+            <p>Banig (Mat) made of Pandan Leaves</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="https://target.scene7.com/is/image/Target/GUEST_faf4605f-bdc4-424f-885e-ce560d8fe4eb?wid=488&hei=488&fmt=pjpeg" alt="Product 3">
+            <p>Adobo Seasoning Mix</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="https://5.imimg.com/data5/DP/TF/XJ/SELLER-93659761/round-straw-basket-500x500.jpg" alt="Product 4">
+            <p>Handwoven Basket</p><br><br><br><br>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Categories</h2>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="https://via.placeholder.com/150x150" alt="Category 1">
+            <p>Food</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="https://via.placeholder.com/150x150" alt="Category 2">
+            <p>Home Decor</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="https://via.placeholder.com/150x150" alt="Category 3">
+            <p>Fashion</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="https://via.placeholder.com/150x150" alt="Category 4">
+            <p>Handicraft</p><br><br><br><br>
+          </a>
+        </li>
+      </ul>
+	  </section>
+  </main>
+  <footer>
+    <p>Copyright © Philippines Local Goods Export</p>
+  </footer>
+</body>
+</html>
